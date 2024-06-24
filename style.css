@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+header{
+    background-color: black;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    transition: background-color 0.4s ease-in-out
+
+}
+.port{
+    color: red;
+    font-size: 1.5rem;
+}
+header nav{
+    /* background-color:black;
+    height: 50px; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 1.5em 0 1.5em 15em; */
+    padding-left: 0px;
+
+}
+
+header nav a{
+    color: red;
+    font-size: 1.5rem;
+}
+header nav a:hover{
+    border: 1px solid rgb(243, 14, 14);
+    transition: color 0.4s ease-in-out;
+}
+
+
+header.scrolled{
+    background-color: rgb(217, 244, 247);
+    opacity: 0.98;
+
+}
+
+div{
+    height:1500px;
+}
+div p{
+    color: aliceblue;
+}
